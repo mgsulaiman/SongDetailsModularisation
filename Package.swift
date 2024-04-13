@@ -18,11 +18,11 @@ let package = Package(
             targets: ["SongDetails"]),
     ],
     dependencies: [
-        .package(name: analyticsInterface, path: "../../../Analytics/\(analyticsInterface)"),
-        .package(name: commonModels, path: "../../../\(commonModels)"),
-        .package(name: dependencyContainer, path: "../../../\(dependencyContainer)"),
-        .package(name: utilities, path: "../../../\(utilities)"),
-        .package(name: artistDetailInterface, path: "../../ArtistDetail/\(artistDetailInterface)"),
+        .package(name: analyticsInterface, path: "../\(analyticsInterface)"),
+        .package(name: commonModels, path: "../\(commonModels)"),
+        .package(name: dependencyContainer, path: "../\(dependencyContainer)"),
+        .package(name: utilities, path: "../\(utilities)"),
+        .package(name: artistDetailInterface, path: "../\(artistDetailInterface)"),
         .package(name: songDetailsInterface, path: "../\(songDetailsInterface)")
     ],
     targets: [
